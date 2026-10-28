@@ -20,32 +20,12 @@ I build models that support decisions, and I take them all the way: calibrated, 
  
 <sub>Internship code is confidential and not published here.</sub>
  
-## ⭐ Featured: [Merry's Way, a multi-agent assistant on Azure](https://github.com/MamadouKane/Multi_Agents-Recommendation-system-azure)
- 
-Five specialised LLM agents (guard, router, details, order, recommendation) answer menu questions, take orders and recommend products for a coffee shop. **The model never computes a price:** totals are computed in Python from the catalogue, and the assistant says "I don't know" when the documents hold no answer.
- 
-- **Evaluated before shipping:** a 100-case golden suite blocks any deployment that degrades it (routing accuracy 1.00, groundedness 4.75/5, order total error 0).
-- **Better than the baseline:** recommender trained on Azure ML from 12,434 receipts, hit@5 **0.638** vs 0.496 for best sellers, with a bootstrap interval on the gain.
-- **Built like production:** Bicep infrastructure as code, blue/green deployment with automatic rollback, 311 unit tests (96% coverage), p95 latency 2.7 s, about 0.004 USD per conversation.
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MamadouKane/Multi_Agents-Recommendation-system-azure/main/docs/assets/archi-simplified-v2.svg" alt="Merry's Way architecture" width="85%">
-</p>
-## More projects
- 
-| Project | What it shows |
-|---|---|
-| [**VocabMaster**](https://github.com/MamadouKane/vocabMaster) · [demo](https://eng-vocabmaster.streamlit.app/) | Deployed LLM app I use daily: definitions, examples, speech synthesis, quizzes, progress tracking. |
-| [**Azure sales analytics pipeline**](https://github.com/MamadouKane/pizza_sales_analysis) | SQL Server to Data Lake with Data Factory, PySpark on Databricks, Power BI on Synapse. |
-| [**STIB Quality of Service**](https://github.com/MamadouKane/STIB-QoS-Analysis) | One month of real-time Brussels transport positions matched to GTFS schedules: punctuality, regularity (Excess Waiting Time), bottleneck detection, dashboards. |
-| [**Local RAG for PDFs**](https://github.com/MamadouKane/RAG_chat_with_your_pdf) | Chat with your documents, multi-query retrieval, 100% local with Ollama: no data leaves the machine. |
-| [**Snowflake data warehouse**](https://github.com/MamadouKane/Data-warehousing-BI) | Star schema, ETL with staging, built-in data quality checks, analytical SQL. |
- 
 ## Stack
  
-**ML & risk:** Python · SQL · SAS · Scikit-learn · XGBoost · PyTorch · imbalanced classification · model evaluation  
-**GenAI:** LLM agents · RAG · LLM evaluation · LangChain · Hugging Face · Ollama · OpenAI API · Azure OpenAI · Qdrant · Azure AI Search  
-**Data:** PySpark · Databricks · Airflow · dbt · PostgreSQL · Snowflake · Azure Data Factory  
-**MLOps:** MLflow · Docker · FastAPI · GitLab CI/CD · GitHub Actions · Bicep · Azure ML · Streamlit
+**ML & risk:** Python - SQL  SAS - Scikit-learn - XGBoost - PyTorch - imbalanced classification - model evaluation - risk modeling
+**GenAI:** LLM agents - RAG - LLM evaluation - LangChain - Hugging Face - Ollama - OpenAI API - Azure OpenAI - Qdrant - Azure AI Search
+**Data:** PySpark - Databricks - Airflow - dbt - PostgreSQL - Snowflake - Azure Data Factory  
+**MLOps & LLMOps:** MLflow - Docker - FastAPI - GitLab CI/CD - GitHub Actions - Bicep - Azure ML - Streamlit
  
 ## Education
  
