@@ -24,6 +24,7 @@ I build models that support decisions, and I take them all the way: calibrated, 
  
 **ML & risk:** Python - SQL  SAS - Scikit-learn - XGBoost - PyTorch - imbalanced classification - model evaluation - risk modeling
 **GenAI:** LLM agents - RAG - LLM evaluation - LangChain - Hugging Face - Ollama - OpenAI API - Azure OpenAI - Qdrant - Azure AI Search
+
 **Data:** PySpark - Databricks - Airflow - dbt - PostgreSQL - Snowflake - Azure Data Factory  
 **MLOps & LLMOps:** MLflow - Docker - FastAPI - GitLab CI/CD - GitHub Actions - Bicep - Azure ML - Streamlit
  
@@ -34,5 +35,5 @@ I build models that support decisions, and I take them all the way: calibrated, 
  
 ---
  
-💬 **Hiring for risk modeling, applied ML or LLM systems?** [Let's talk on LinkedIn](https://www.linkedin.com/in/kanemamadou/) or [by email](mailto:mamadoukane233@gmail.com).
+💬 **Hiring for applied ML or LLM systems?** [Let's talk on LinkedIn](https://www.linkedin.com/in/kanemamadou/) or [by email](mailto:mamadoukane233@gmail.com).
  
